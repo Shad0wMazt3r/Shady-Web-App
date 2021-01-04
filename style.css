@@ -2,9 +2,61 @@ h1
 {
     font-size: 3em;
     font-family: "Arial";
-    color: rgb(174, 226, 176);
+    color: whitesmoke;
+    text-shadow: 2px 2px 7px blue;
 }
 body
 {
     background-color:rgb(42, 41, 41);   
+}
+.login-screen
+{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 15%;
+    border-radius: 20px;
+    border: 2px solid;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:rgb(47, 218, 127);
+    text-align: center;
+    line-height: 2;
+    box-shadow: 2px 2px 5px blue;
+}
+.input
+{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: Roboto;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+.input:hover
+{
+    background-color:blue;
+}
+.input:focus
+{
+    background-color: blue;
+    color:white;
+}
+.submit
+{
+    font-family: Roboto;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+.submit:hover
+{
+    background-color: blue;
+    color: rgb(174, 226, 176);
 }
