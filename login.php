@@ -12,3 +12,6 @@ else
     header("Location: index.php?error");
 }
 ?>
+<?php
+include("header.php");
+?>

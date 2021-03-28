@@ -3,7 +3,8 @@ if(isset($_COOKIE['loggedin']))
 {
     if($_COOKIE['loggedin'] == "true")
     {
-        header("Location: blog.php");
+        header("Location: shop.php");
+        die();
     }
 }
 else
@@ -15,23 +16,9 @@ if(isset($_GET['error']))
     echo "<script>alert('Incorrect Username/Password')</script>";
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Shady Web App</title>
-</head>
-<heading>
-    <center>
-        <h1>Shady Fan Page</h1>
-    </center>
-</heading>
-<body>
-<br>
-<br>
-<br>
+<?php
+include("header.php");
+?>
 <center>
 <form action="login.php" method="POST">
     <div class="login-screen">

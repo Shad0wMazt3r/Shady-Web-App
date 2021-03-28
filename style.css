@@ -1,6 +1,6 @@
 h1
 {
-    font-size: 3em;
+    font-size: 4em;
     font-family: "Arial";
     color: whitesmoke;
     text-shadow: 2px 2px 7px blue;
@@ -34,7 +34,7 @@ body
     font-family: Roboto;
     text-align: center;
     border: 2px solid blue;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .input:hover
 {
@@ -59,4 +59,53 @@ body
 {
     background-color: blue;
     color: rgb(174, 226, 176);
+}
+.post-heading
+{
+    font-size: 3em;
+    font-family: Roboto;
+    font-weight: bold;
+    color:whitesmoke;
+    text-align: center;
+}
+.post-author
+{
+    font-size: 1em;
+    font-family: Roboto;
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.blog-image
+{
+    text-align: center;
+}
+.post-content
+{
+    font-size: 30px;
+    font-family: Arial;
+    overflow: auto;
+    color: white;
+    padding: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+body
+{
+    font-size: 30px;
+    font-family: Roboto;
+    overflow: auto;
+    color: white;
+    padding: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+hr
+{
+    width: 50%;
+}
+.shopHeader{
+    font-family: Roboto;
 }
